@@ -30,7 +30,7 @@ estimator = PyTorch(
     input_mode='FastFile',
     #output_path=f"s3://{bucket}/model/{model}/{MM}/log",
     #code_location=f"s3://{bucket}/model/{model}/{MM}/log",
-    checkpoint_s3_uri=f"s3://dev-windtopo/model_weight_mth01",
+    checkpoint_s3_uri=f"s3://dev-srad-ml/toy/",
     #use_spot_instances=True,
     #max_wait=86400 * 5
 )
